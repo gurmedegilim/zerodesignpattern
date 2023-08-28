@@ -1,0 +1,134 @@
+#ToplamaOperatoru
+sayi1 = 10
+sayi2 = 22
+toplam = sayi1+sayi2
+print("sayi1+sayi2 toplamı = ", toplam)
+#çıkarma operatoru
+çıkarma = sayi1 - sayi2
+print(çıkarma)
+#tam bölme
+tam_bolum = sayi2 // sayi1
+print("Tam Bölüm:", tam_bolum)
+# Mod Alma Operatörü (%)
+sayi1 = 20
+sayi2 = 7
+mod = sayi1 % sayi2
+print("Mod:", mod)
+
+# Üs Alma Operatörü (**)
+taban = 2
+us = 4
+sonuc = taban ** us
+print("Üs:", sonuc)
+
+#KarsilastirmaOperatoru Eşitlik Operatörü (==): İki değerin birbirine eşit olup olmadığını kontrol eder.
+a=5
+b=4
+print(a==b) 
+
+a=10
+b=5
+print(a>b)
+print(a<b)
+print(a>=b)
+
+#andoperatoru : ikionerme de doğru olmalı
+x = 5
+y = 10
+z = 7
+print(x < y and y < z)
+#değiloperatoru tersini döner ( Sonuç true ama değil operatorunden dolayı sonuç false olmalı)
+x = 5
+y = 10
+print(not x < y) 
+
+#atama operatörleri
+#eşit atama operatörü
+
+x = 5
+y = x
+print(y) 
+#toplama atama
+x = 10
+x += 3
+print(x)  # 13
+
+#çarpma atama
+z = 7
+z *= 2
+print(z)  # 14
+
+#üyelik ve kimlik operatörleri: veri yapıları ve nesneler arasındaki ilişkileri değerlendirmeye yarar.
+
+#İn Operatörü (in): Bir değerin bir veri yapısında (liste, demet, dize vb.) bulunup bulunmadığını kontrol eder.
+
+liste = [1, 2, 3, 4, 5]
+x = 3
+print(x in liste)  # True
+
+y = 10
+print(y in liste)  # False
+
+#Not İn Operatörü (not in): Bir değerin bir veri yapısında bulunmadığını kontrol eder.
+zenginlik = (10, 20, 30)
+x = 15
+print(x not in zenginlik)  # True
+
+y = 20
+print(y not in zenginlik)  # False
+
+#İdentity Operatörü (is): İki nesnenin bellek içinde aynı yerde mi saklandığını kontrol eder.
+
+a = [1, 2, 3]
+b = a
+print(a is b)  # True
+
+c = [1, 2, 3]
+print(a is c)  # False
+
+Elbette! Python'da üyelik ve kimlik operatörleri, veri yapıları ve nesneler arasındaki ilişkileri değerlendirmek için kullanılır. İşte Python'da kullanılan üyelik ve kimlik operatörleri ile örnekler:
+
+Üyelik Operatörleri:
+
+İn Operatörü (in): Bir değerin bir veri yapısında (liste, demet, dize vb.) bulunup bulunmadığını kontrol eder.
+Örnek:
+
+python
+Copy code
+liste = [1, 2, 3, 4, 5]
+x = 3
+print(x in liste)  # True
+
+y = 10
+print(y in liste)  # False
+Not İn Operatörü (not in): Bir değerin bir veri yapısında bulunmadığını kontrol eder.
+Örnek:
+
+python
+Copy code
+demet = (10, 20, 30)
+x = 15
+print(x not in demet)  # True
+
+y = 20
+print(y not in demet)  # False
+Kimlik Operatörleri:
+
+İdentity Operatörü (is): İki nesnenin bellek içinde aynı yerde mi saklandığını kontrol eder.
+Örnek:
+
+python
+Copy code
+a = [1, 2, 3]
+b = a
+print(a is b)  # True
+
+c = [1, 2, 3]
+print(a is c)  # False
+#Not İdentity Operatörü (is not): İki nesnenin bellek içinde aynı yerde saklanmadığını kontrol eder
+x = "Hello"
+y = "Halil"
+print(x is not y)  # True
+
+z = "Hello"
+print(x is not z)  # False
